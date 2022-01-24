@@ -1,0 +1,68 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+           
+            <title>KASHISH AGRAWAL-PORTFOLIO</title>
+            <link rel="stylesheet" href="style.css">
+            <!-- CSS only -->
+            
+        </head>
+        <body style="background-color:aquamarine;">
+           
+            <button onclick="displaycount()"> CLICK </button>
+            <p id="carrier"> 0 </p>
+            
+            <h1 style="text-align: center;
+            margin-block-start: 1em;">
+                PORTFOLIO
+            </h1>
+                    <h3>
+            <ul style="margin: 0; padding: 0; margin-block-start: 5em;">
+                <li><a href="HOME.html">HOME </a></li>
+                <li><a href="PERSONAL INFORMATION.html">PERSONAL INFORMATION </a></li>
+                <li><a href="EDUCATIONAL INFORMATION.html">EDUCATIONAL INFORMATION </a></li>
+                <li><a href="HOBBIES AND LIKES.html">HOBBIES AND LIKES</a></li>
+                <li><a href="CONTACT.html">CONTACT</a></li>
+            </h3>
+            </ul>  
+           </div>
+           <div class="footer-container"
+           style="margin-top: 18em;">
+               <div class="footer">
+                   <div class="footer-heading footer-1">
+                       <h2>About Us</h2>
+                       <a href="#">Blog</a>
+                       <a href="#">Demo</a>
+                       <a href="#">Investors</a>
+                       <a href="#">Customers</a>
+                   </div>
+                   <div class="footer-heading footer-2">
+                    <h2>Contact Us</h2>
+                    <a href="#">Jobs</a>
+                    <a href="#">Internship</a>
+                    <a href="#">Free lance</a>
+                </div>
+                <div class="footer-heading footer-3">
+                    <h2>Social Media</h2>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Linkedin</a>
+                    <a href="#">email</a>
+                </div>
+               </div>
+           </div>
+        </body>
+        <script>
+            var count=(function(){
+                var counter = 0;
+                return function () {return counter +=1;}
+
+            })();
+            function displaycount(){
+                document.getElementById("carrier").innerHTML =count();
+            }
+
+        </script>
+    </html>
+</DOCTYPE> 
